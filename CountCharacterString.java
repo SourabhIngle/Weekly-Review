@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CountCharacterString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the word :");
+        System.out.println("Enter the any word :");
         String word = sc.nextLine();
         char[] noDuplicate = new char[word.length()];
 
