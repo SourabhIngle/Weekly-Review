@@ -8,6 +8,6 @@ public class RemoveAllSpecialCharacter {
         System.out.println("Enter the any sentence : ");
         String userInput = sc.nextLine();
         String cleanString = userInput.replaceAll("[^a-zA-Z0-9]", "");
-        System.out.println("Without special character sentence is : " + cleanString);
+        System.out.println("Without special character sentence is : \n" + cleanString);
     }
 }
